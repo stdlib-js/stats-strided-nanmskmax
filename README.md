@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nanmskmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmax@esm/index.mjs';
+import nanmskmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmax@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmax@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmax@v0.1.1-esm/index.mjs';
 ```
 
 #### nanmskmax( N, x, strideX, mask, strideMask )
@@ -163,7 +163,7 @@ var v = nanmskmax.ndarray( 5, x, 2, 1, mask, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import nanmskmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmax@esm/index.mjs';
+import nanmskmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmax@v0.1.1-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
